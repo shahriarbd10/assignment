@@ -54,10 +54,39 @@
 }
 
 .details{
+    
     display: flex;
+    gap: 87px;
+    max-width: 1072px;
+    max-height: 723.3px;
+    flex-direction: row-reverse;
+    padding: 0 322px 130px 206px ;
+    margin-top: 130;
+   
+
+    
+}
+.section-title{
+  
+  margin-top: 369px;
+  margin-bottom: 24px;
 
 }
 
+
 .section-description{
+    margin-bottom: 16px;
     
+}
+
+.points{
+    color: #444343;
+    font-weight: 400;
+    
+}
+img{
+    width: 723.3px;
+    height: 569px;
+    margin-top: 130px;
+
 }
