@@ -1,0 +1,54 @@
+
+/* universal */
+*{
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Background Styles */
+.header{
+    background-image: url(../images/banner/banner2.png);
+    width:100%;
+    height:100%;
+    border: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+/* Banner Styles */
+.banner{
+   text-align: right;
+    padding: 216px 230px 365px 845px;
+}
+
+.banner-title{
+   
+    
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+
+.banner-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+
+.btn-primary{
+    background:#F15B22; 
+    width: 160px;
+    height: 64px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+}
