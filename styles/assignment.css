@@ -55,6 +55,10 @@
    
 }
 
+
+/* failurs of previous year section */
+
+
 .details{
     
     display: flex;
@@ -134,6 +138,8 @@ text-align: center;
         margin-bottom: 30px;
        
     }
+
+    /* Advertisement section */
     .advertise{
         width: 1140px;
         height: 300px;
@@ -167,9 +173,10 @@ text-align: center;
         color: #F15B22;
     }
 
+    /* Footer section */
+
     .footer{
-        height: 100%;
-        width: 100%;
+       
         display: flex;
         gap: 331px;
         color: #FFFFFF;
@@ -242,3 +249,10 @@ font-weight: 400;
     font-size: 20px;
     font-weight: 600;
 }
+
+.footer-button:hover{
+   background-color: rgba(21, 211, 154, 0.685);
+   color: white
+}
+
+/* Shahriar Hossain (shahriarsgr@gmail.com) github/shahriarbd10 */
