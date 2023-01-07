@@ -115,9 +115,11 @@ i{
 .my-plans{
     width: 1141px;
     height: 299.96px;
-margin-bottom: 50px;  
-text-align: center;  
- padding: 0 230px;
+    margin-bottom: 124.04px;  
+    text-align: center;  
+    margin-left: 230px;
+    margin-right: 230px;
+    
 }
 .plan-head{
     font-weight: 700;
@@ -148,57 +150,20 @@ text-align: center;
         margin-bottom: 30px;
        
     }
-
-    /* Advertisement section */
-    .advertise{
-        width: 1140px;
-        height: 300px;
-        background-image: url(../images/gradient3.png),url(../images/watch.png);
-        background-repeat: no-repeat;
-        padding: 124.4px 230px 130px 230px;
-        background-position: center;
-        text-align: left;
-    }
-    .advertise-title{
-        font-weight: 700;
-        font-size: 40px;
-        margin-top: 59px;
-        margin-bottom: 24px;
-        margin-left: 64px;
-        color: #FFFFFF; 
-
-    }
-
-    .btn-advertise{
-        width: 160px;
-        height: 64px;
-        margin-left: 64px;
-       
-        background: #FFFFFF;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: 600;
-        border: 0;
-        color: #F15B22;
-    }
-    .btn-advertise:hover{
-        background-color: rgba(21, 211, 154, 0.685);
-        color: white;
-    }
-/* extra section */
+    /* extra section */
 .about-myself{
     display: flex;
     max-width: 1072px;
     gap: 140px;
     max-height: 723.3px;
     flex-direction: row-reverse;
-    padding: 42px 35px 42px 35px ;
+    padding: 37px 35px 37px 35px ;
     align-items: left;
    background: rgba(252, 224, 183, 0.582);
-    margin-bottom: 130px;
+    margin-bottom: 124.04px;
     margin-left: 230px;
     border-radius: 15px;
+    margin-right: 230px;
 
 }
 
@@ -252,6 +217,44 @@ text-align: center;
     
 }
 
+
+
+    /* Advertisement section */
+    .advertise{
+        width: 1140px;
+        height: 300px;
+        background-image: url(../images/gradient3.png),url(../images/watch.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: left;
+        margin-left: 230px;
+        margin-right: 230px;
+        margin-bottom: 130px;
+    }
+    .advertise-title{
+        font-weight: 700;
+        font-size: 40px;
+        color: #FFFFFF;
+        padding: 59px 0 24px 64px; 
+
+    }
+
+    .btn-advertise{
+        width: 160px;
+        height: 64px;
+        margin-left: 64px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        border: 0;
+        color: #F15B22;
+    }
+    .btn-advertise:hover{
+        background-color: rgba(21, 211, 154, 0.685);
+        color: white;
+    }
 
 
     /* Footer section */
